@@ -1,0 +1,73 @@
+[{
+        "idProduit": "iphoneXr64Go",
+        "imageProduit": "./img/iphoneXr.jpg",
+        "nomProduit": "Apple iPhone XR<br>64 Go 6,1 Noir",
+        "prixProduit": 859,
+        "stockProduit": 50,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "galaxys1O128Go",
+        "imageProduit": "./img/galaxyS10.jpg",
+        "nomProduit": "Samsung Galaxy S10<br>Dual SIM 128 Go Noir Prisme",
+        "prixProduit": 909,
+        "stockProduit": 40,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "huaweiP30Lite128Go",
+        "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/83/8a/b0/11569795/1540-1/tsp20190618170510/Smartphone-Huawei-P30-Lite-Dual-SIM-128-Go-Noir.jpg",
+        "nomProduit": "Huawei P30 Lite<br>Dual SIM 128 Go Noir",
+        "prixProduit": 329,
+        "stockProduit": 40,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "sonyXperiaXZ132Go",
+        "imageProduit": "https://static.fnac-static.com/multimedia/Images/AE/AE/18/75/7674030-1505-1540-1/tsp20190610171001/Smartphone-Sony-Xperia-XZ1-Compact-32-Go-Bleu.jpg",
+        "nomProduit": "Sony Xperia XZ1<br>32 Go Bleu",
+        "prixProduit": 329,
+        "stockProduit": 40,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "lgV3064Go",
+        "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/77/63/68/6841207/1540-1/tsp20190507111458/Smartphone-LG-V30-64Go-Bleu.jpg",
+        "nomProduit": "Smartphone LG V30<br>64Go Bleu",
+        "prixProduit": 899,
+        "stockProduit": 40,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "galaxyA1032Go",
+        "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/23/47/b3/11749155/1540-1/tsp20190531172631/Smartphone-Samsung-Galaxy-A10-Dual-SIM-32-Go-Noir.jpg",
+        "nomProduit": "Samsung Galaxy A10<br>Dual SIM 32 Go Noir",
+        "prixProduit": 159,
+        "stockProduit": 40,
+        "categorie": "telephone"
+    },
+    {
+        "idProduit": "earPodsIphone",
+        "imageProduit": "./img/ecouteursIphone.jpg",
+        "nomProduit": "Apple EarPods Lightning",
+        "prixProduit": 23.50,
+        "stockProduit": 40,
+        "categorie": "accessoire"
+    },
+    {
+        "idProduit": "ecouteursSamsung",
+        "imageProduit": "./img/ecouteursSamsung.jpg",
+        "nomProduit": "Ecouteurs Samsung",
+        "prixProduit": 4,
+        "stockProduit": 40,
+        "categorie": "accessoire"
+    },
+    {
+        "idProduit": "ecouteursBluethooth",
+        "imageProduit": "./img/ecouteursBluetooth.jpg",
+        "nomProduit": "Ecouteurs Bluetooth 5.0",
+        "prixProduit": 45,
+        "stockProduit": 40,
+        "categorie": "accessoire"
+    }
+]

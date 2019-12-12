@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./panierLocalStorage.css">
+    <title>Panier X Local Storage</title>
+</head>
+
+<body>
+    <!-- AFFICHAGE DE LA BASE DE DONNEES -->
+    <div id="produitDispo"></div>
+    <br>
+    <div id="essai"></div>
+    <!-- AFFICHAGE DU PANIER -->
+    <div id="panierAchat">
+        <div id="titrePanier">PANIER D'ACHATS</div>
+        <div id="categoriePanier">
+            <div id="titreArticle">Articles</div>
+            <p>Quantité</p>
+            <p>Prix unitaire</p>
+            <p>Sous-Total</p>
+        </div>
+        <div id="listeProduitsPanier"></div>
+        <div id="titreRecap">Recapitulatif de la commande</div>
+        <div id=categorieRecapCommande>
+            <div id="divGaucheRecapCommande">
+                    <p>Nombre de produit(s) : </p>
+                    <p>Total avant réduction : </p>
+                    <p>Réduction : </p>
+                    <p>Net à Payer : </p>
+            </div>
+            <div id="divDroiteRecapCommande">
+            </div>
+        </div>
+        <div id="recapCommande"></div>
+    </div>
+
+    <script type="module" src="./panierLocalStorage.js"></script>
+
+</body>
+
+</html>

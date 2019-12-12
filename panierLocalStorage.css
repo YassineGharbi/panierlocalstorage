@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* DIV CONTENANT TOUS LES PRODUITS */
+#produitDispo {
+    /*LA PAGE DEVIENT UNE GRILLE*/
+    display: grid;
+    /*3 COLONNES D'UN ELEMENTS*/
+    grid-template-columns: repeat(3, 1fr);
+    /*ESPACE ENTRE COLONNES*/
+    grid-column-gap: 2%;
+    /*ESPACE ENTRE LIGNES*/
+    grid-row-gap: 2%;
+    margin: 5%;
+    font-size: 2vw;
+}
+
+/* DIV CONTENANT UN PRODUIT */
+.prod {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* DIV CONTENANT LE NOM DU PRODUIT */
+.nomProd {
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    padding: 2%;
+}
+
+/* DIV CONTENANT L'IMAGE, LE PRIX ET LE BOUTON D'AJOUT DU PRODUIT */
+.infoProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+    padding: 2%;
+
+}
+
+.infoProd img {
+    width: 100%;
+    height: auto;
+}
+
+.boutonAchat {
+    background-color: #047afb;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-size: 2vw;
+}
+
+.boutonAchat:active {
+    background-color: black;
+}
+
+/*-------------------------------------------------PANIER ACHAT */
+
+/* DIV CONTENANT LE PANIER D'ACHAT */
+#panierAchat {
+    /*LA PAGE DEVIENT UNE GRILLE*/
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 5%;
+    font-size: 2vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-items: center;
+    text-align: center
+}
+
+#panierAchat img {
+    width: 40%;
+    height: auto;
+}
+
+#titrePanier {
+    grid-column: span 15;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+#categoriePanier {
+    display: flex;
+    justify-content: space-around;
+}
+
+#categoriePanier p{
+    width: 20%;
+}
+
+#titreArticle {
+    width: 40%;
+    text-align: center;
+}
+
+#listeProduitsPanier {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.articlePanier {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.prodPanier{
+    width : 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodPanier div{
+    width : 50%;
+}
+
+.articlePanier p {
+    width : 20%;
+}
+
+#titreRecap {
+    grid-column: span 15;
+    text-align: center;
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+#categorieRecapCommande {
+    width: 100%;
+    display: flex;
+}
+
+.btnMoins {
+    background-color: black;
+    font-size : 20px;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.btnPlus {
+    background-color: black;
+    font-size : 20px;
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.btnSup {
+    color: red;
+    font-size : 20px;
+    width: 25px;
+    height: 25px;
+}
